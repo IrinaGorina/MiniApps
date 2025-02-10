@@ -1,5 +1,3 @@
-//Программа,которая принимает на вход название месяца и выводит в консоль,к какому сезону относится этот месяц.
-
 public class SwitchCaseSeasons {
     public static void main(String[] args) {
         String nameOfMonth = "July";
