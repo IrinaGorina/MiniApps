@@ -1,0 +1,17 @@
+public class Main {
+    public static void main(String[] args) {
+        Person john = new Person();
+        Person nick = new Person();
+        Person max = new Person();
+        john.name = "John";
+        john.age = 17;
+        john.weight = 70;
+        nick.name = "Nick";
+        nick.age = 18;
+        nick.weight = 75;
+        max.name = "Max";
+        max.age = 20;
+        max.weight = 80;
+        double sum = john.age + nick.age + max.age;
+        double average = sum / 3;
+        System.out.println(average);
